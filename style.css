@@ -1,0 +1,33 @@
+body{
+    background: linear-gradient(red 0% , lightblue 33% , cyan 66% , darkblue 100%);
+}
+
+h1{
+    font-family: 'Special Elite', fantasy;
+    color: rgb(249, 130, 2);
+    background-color: peachpuff
+}
+
+#show_sketch{
+    float: right;
+}
+#timer{
+    float: right;
+}
+#sketch_to_be_drawn{
+    color: rgb(54, 83, 126);
+}
+canvas{
+    border: 4px solid yellowgreen;
+    border-radius: 20px;
+    margin-top: 135px;
+    box-shadow: 5px 5px 5px gray;
+    box-shadow: 1px 1px 1px #ffffff;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes example{
+    from {box-shadow : 1px 1px 38px orange;}
+    to {box-shadow: 1px 1px 38px green;}
+}
